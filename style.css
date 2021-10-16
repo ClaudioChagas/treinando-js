@@ -1,0 +1,46 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-y: hidden;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 8%;
+    background-color: rgb(224, 241, 126);
+}
+
+header {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.imagem {
+    background-color: white;
+}
+
+.imagem img {
+    width: 250px;
+    height:300px;
+}
+
+.botoes {
+    margin-top: 40px;
+}
+
+.botoes button {
+    color:black;
+    background-color: whitesmoke;
+    border-radius: 10%;
+    width: 70px;
+    height: 30px;
+    border: 2px solid black;
+    cursor: pointer;
+}
