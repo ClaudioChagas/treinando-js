@@ -1,0 +1,97 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(95, 95, 95);
+    font-family: 'Times New Roman', Times, serif;
+    overflow-x: hidden;
+}
+
+.calculadora {
+    border: 1px solid black;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 9%;
+    margin-left: 36%;
+    background-color: yellow;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 0 10px black;
+}
+
+.inicio {
+    color: black;
+    background-color: yellow ;
+    border-bottom: black solid 2px;
+    padding-top: 20px;
+} 
+
+.inicio h1 {
+    background-color: yellow;
+    font-size: 40px;
+}
+
+.container {
+    color: black;
+    padding: 20px 0;
+    margin: 20px 0;
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.entradas {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px;
+    background-color: yellow;
+    font-weight: bold;
+    
+}
+.entradas h3 {
+    background-color: yellow;
+    font-weight: bold;
+    font-size: 25px;
+    
+    
+}
+
+.entradas input {
+    border: none;
+    background: white;
+    color:black;
+    border-radius: 10px ;
+    font-weight: bold;
+    outline: 0;
+    text-align: center;
+    font: bold 20px serif;
+}
+
+.botao {
+    background-color: yellow;
+    margin-top: 20px;
+}
+
+.botao button {
+    background: black;
+    border: none;
+    color: yellow;
+    border-radius: 10%;
+    cursor: pointer;
+    width: 100px;
+}
+
+.resultado {
+    border: 1px solid black;
+    background-color: rgb(95, 95, 95) ;
+    margin-top: 20px;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
