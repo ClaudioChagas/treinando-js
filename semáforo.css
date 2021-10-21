@@ -1,0 +1,37 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: floralwhite;
+}
+
+.semáforo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    background-color: floralwhite;
+    width: 100vw;
+    height: 100vh;
+}
+
+.imagem {
+    margin-bottom: 20px;
+}
+
+.imagem img {
+    background-color: floralwhite;
+}
+
+.botoes button{
+   margin-left: 10px ;
+   width: 100px;
+   border: 1px solid black;
+   border-radius: 10px;
+   cursor:pointer;
+   font-weight: bold;
+   box-shadow: 0 0 10px black;
+}
